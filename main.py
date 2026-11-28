@@ -440,7 +440,7 @@ class Takopi:
             )
 
             try:
-                # memory.json 내용을 System 프롬프트로 변환
+                # memory.json 내용을 프롬프트로 변환
                 memory_text = build_memory_prompt(self.memory)
 
                 # 마지막 대화 이후 경과 시간을 타코피에게 알려줄 문장 생성
